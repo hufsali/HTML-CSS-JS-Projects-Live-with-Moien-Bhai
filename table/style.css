@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+input[type="number"] {
+    padding: 5px;
+    margin: 0 10px;
+}
+button {
+    padding: 5px 10px;
+    background-color: #009688;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00796b;
+}
+
+#tables {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ul {
+    border: 1px solid #ccc;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding-inline-start: unset;
+}
+
+ul li {
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 5px;
+    border: 1px solid #ddd;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
+
+ul li:first-child {
+    background-color: #009688 !important;
+    color: white;
+    padding: 5px 10px;
+}
+
+.highlight {
+    background-color: #ffc107;
+}
